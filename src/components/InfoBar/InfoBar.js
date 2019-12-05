@@ -69,8 +69,7 @@ class InfoBar extends React.Component {
           <Avatar alt={config.infoTitle} src={avatar} className={classes.avatar} />
         </Link>
         <h3 className={classes.title}>
-          {config.infoTitle}
-          <small>{config.infoTitleNote}</small>
+          {config.infoTitleNote}
         </h3>
         <TopMenu
           pages={pages}

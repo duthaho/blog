@@ -2,36 +2,15 @@
 title: About
 ---
 
-This is a demo site of the [PersonalBlog](https://github.com/greglobinski/gatsby-starter-personal-blog) GatsbyJS starter.
+### BLOG RA ĐỜI NHƯ THẾ NÀO?
 
-The starter is a ready to use, easy to customize 'like theme' starter. It has everything what blog should have and some more.
+Sau khoảng thời gian đọc blog của người khác thì mình cũng suy nghĩ nên một lần chơi lớn xem ai đó có trầm trồ.
+Thế là đú đởn viết một cái blog để thủ dâm tinh thần chứ trình độ mình thì dell dám đứng ra mà viết blog chia sẻ kiến thức gì cho các bạn đâu nha 😚.
 
-### Standard features:
+### MÌNH LÀ THÈN CỦ CẢI NÀO?
 
-* Easy editable content in **Markdown** files (posts, pages and parts)
-* **SEO** (sitemap generation, robot.txt, meta and OpenGraph Tags)
-* **Social** sharing (Twitter, Facebook, Google, LinkedIn)
-* **Comments** (Facebook)
-* **Images** lazy loading and `webp` support (gatsby-image)
-* Post **categories** (post list filtering)
-* Full text **searching** (Algolia)
-* **Contact** form (Netlify form handling)
-* **RSS** feed
-* **PWA** (manifest.json, offline support, favicons)
-* Google **Analytics**
-* **Favicons** generator (node script)
-* **Material UI** (@next)
+* Tên đầy đủ của mình là DƯơng THAnh HỢp. Nickname hay các account trên mạng đều là duthaho, nghĩa là Đ* Tha Hồ, hay Đ*t Hà Hồ gì cũng được 😤.
+* Tốt nghiệp Đại Học Bách Khoa Đà Nẵng khóa 08 và hiện tại đang là full-stack developer tại [Peddler](https://peddler.com).
+* Thời gian rãnh rỗi thì sẽ viết blog và học thêm một số thứ nữa. Hy vọng lúc đi làm có thể chém gió một chút với bên tuyển dụng 😤.
 
-### Advanced features:
-
-* Easy customizable base **styles** via `theme` object (fonts, colors, sizes)
-* **Components** lazy loading (social sharing, comments)
-* **ESLint** (google config)
-* **Prettier** code styling
-* Custom webpack `CommonsChunkPlugin` settings
-* Webpack `BundleAnalyzerPlugin`
-* Contact **form validation** (react-material-ui-form-validator)
-
-## Instructions
-
-For detailed instructions go to [Front-end web development with Greg](https://dev.greglobinski.com/gatsby-starter-personal-blog/).
+#### Chào thân ái và quyết thắng 😝. Đừng quên comment, share và đăng ký để nhận bài viết mới hàng tuần nhé!

@@ -164,7 +164,7 @@ class ListItem extends React.Component {
                 </LazyLoad>
               </div>
             )}
-          
+
           <div className={classes.listItemText}>
             <h1>{post.node.frontmatter.title}</h1>
             {post.node.frontmatter.subTitle && <h2>{post.node.frontmatter.subTitle}</h2>}

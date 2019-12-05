@@ -2,4 +2,4 @@
 title: Success
 ---
 
-Thank you. I will answer to the message as soon as possible.
+Đã nhận được nội dung thầm kín bạn gửi cho mình rồi nhé!

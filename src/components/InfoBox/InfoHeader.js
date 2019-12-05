@@ -117,7 +117,6 @@ const InfoHeader = props => {
         </div>
       </Link>
       <h1 className={classes.title}>
-        {config.infoTitle.replace(/ /g, "\u00a0")}
         <small>{config.infoTitleNote}</small>
       </h1>
       <IconButton

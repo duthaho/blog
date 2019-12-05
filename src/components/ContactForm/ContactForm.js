@@ -93,7 +93,7 @@ class ContactForm extends React.Component {
         <TextValidator
           id="name"
           name="name"
-          label="Name"
+          label="Tên"
           value={name}
           onChange={this.handleChange}
           validators={["required"]}
@@ -117,7 +117,7 @@ class ContactForm extends React.Component {
         <TextValidator
           id="message"
           name="message"
-          label="Message"
+          label="Nội dung"
           value={message}
           onChange={this.handleChange}
           validators={["required"]}
@@ -135,7 +135,7 @@ class ContactForm extends React.Component {
           type="submit"
           className={classes.submit}
         >
-          Send
+          Gửi
         </Button>
       </ValidatorForm>
     );

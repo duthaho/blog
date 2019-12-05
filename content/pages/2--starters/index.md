@@ -1,20 +1,18 @@
 ---
-title: Other GatsbyJs starters
-menuTitle: My starters
+title: Projects
+menuTitle: Projects
 ---
 
-[Personal**Blog**](https://github.com/greglobinski/gatsby-starter-personal-blog) is not my first [GatsbyJS](https://www.gatsbyjs.org/) starter.
+### JavaScript Quizzes
 
-![SimpleLanding](./gatsby-starter-simple-landing.png)
+Gồm 1977 câu hỏi trắc nghiệm JavaScript, dùng để ôn luyện từ cơ bản đến nâng cao. Cập nhật liên tục và có giải thích đáp áp.
+[Website](https://quiz.duthaho.com/) | [Github repo](https://github.com/duthaho/js-quiz)
 
-### SimpleLanding
+### JavaScript Learning
 
-As the name says, it is a landing page starter.
-[Demo](https://gatsby-starter-simple-landing.greglobinski.com/) | [Github repo](https://github.com/greglobinski/gatsby-starter-simple-landing)
+Nơi để mọi người có thể cùng nhau học tập với các khóa học và bài giảng vô cùng phong phú, được mình tổng hợp rất chi tiết.
+[Website](https://learn.duthaho.com/) | [Github repo](https://github.com/duthaho/learns)
 
-![StyledBlog](./gatsby-styled-blog-starter.jpg)
+### JavaScript Discussion
 
-### StyledBlog
-
-That was my first Gatsby starter. It is a forefather of the starter you are looking at now.
-[Github repo](https://github.com/greglobinski/gatsby-styled-blog-starter)
+Sau nhiều bài học căng thẳng thì các bạn có thể cùng nhau chia sẽ kiến thức lập trình cũng như kỹ năng cua gái ở đây. [Website](http://htdiscuss.surge.sh/) | [Github repo](https://github.com/duthaho/discuss)

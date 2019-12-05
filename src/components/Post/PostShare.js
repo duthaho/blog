@@ -5,12 +5,12 @@ import {
   FacebookShareButton,
   GooglePlusShareButton,
   LinkedinShareButton,
-  TwitterShareButton,
+  // TwitterShareButton,
   FacebookShareCount,
   GooglePlusShareCount,
   LinkedinShareCount,
   FacebookIcon,
-  TwitterIcon,
+  // TwitterIcon,
   GooglePlusIcon,
   LinkedinIcon
 } from "react-share";
@@ -57,11 +57,10 @@ class PostShare extends React.Component {
 
     return (
       <div className={classes.share}>
-        <span className={classes.label}>SHARE</span>
         <div className={classes.links}>
-          <TwitterShareButton url={url} title={title}>
+          {/* <TwitterShareButton url={url} title={title}>
             <TwitterIcon round size={iconSize} />
-          </TwitterShareButton>
+          </TwitterShareButton> */}
           <GooglePlusShareButton url={url}>
             <GooglePlusIcon round size={iconSize} />
             <GooglePlusShareCount url={url}>
