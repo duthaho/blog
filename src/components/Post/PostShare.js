@@ -79,9 +79,6 @@ class PostShare extends React.Component {
           </FacebookShareButton>
           <LinkedinShareButton url={url} title={title} description={excerpt}>
             <LinkedinIcon round size={iconSize} />
-            <LinkedinShareCount url={url}>
-              {count => <div className="share-count">{filter(count)}</div>}
-            </LinkedinShareCount>
           </LinkedinShareButton>
         </div>
       </div>

@@ -24,7 +24,16 @@ const query = `{
 const queries = [
   {
     query,
-    transformer: ({ data }) => data.allMarkdownRemark.edges.map(({ node }) => node)
+    transformer: ({ data }) =>
+      data.allMarkdownRemark.edges.map(({ node }) => {
+        if (node && node.internal && node.internal.content) {
+          // we need to ensure we don't exceed Algolia's free-tier limits
+          if (node.internal.content.length > 5000) {
+            node.internal.content = node.internal.content.slice(0, 5000);
+          }
+        }
+        return node;
+      })
   }
 ];
 
@@ -47,16 +56,16 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-next`,
-    // {
-    //   resolve: `gatsby-plugin-algolia`,
-    //   options: {
-    //     appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
-    //     apiKey: process.env.ALGOLIA_ADMIN_API_KEY ? process.env.ALGOLIA_ADMIN_API_KEY : "",
-    //     indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "",
-    //     queries,
-    //     chunkSize: 10000 // default: 1000
-    //   }
-    // },
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
+        apiKey: process.env.ALGOLIA_ADMIN_API_KEY ? process.env.ALGOLIA_ADMIN_API_KEY : "",
+        indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "",
+        queries,
+        chunkSize: 10000 // default: 1000
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
