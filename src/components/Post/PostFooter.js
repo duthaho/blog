@@ -15,24 +15,6 @@ const styles = theme => ({
     "& p": {
       margin: 0
     }
-  },
-  bmc: {
-    padding: "7px 10px 7px 10px",
-    lineHeight: "35px",
-    height: "51px",
-    minWidth: "217px",
-    textDecoration: "none !important",
-    display: "inline-flex",
-    backgroundColor: "#FFDD00",
-    borderRadius: "5px",
-    border: "1px solid transparent",
-    "& img": {
-      width: "35px",
-      marginBottom: "1px",
-      boxShadow: "none",
-      border: "none",
-      verticalAlign: "middle"
-    }
   }
 });
 const PostShare = asyncComponent(() =>
@@ -46,9 +28,6 @@ const PostShare = asyncComponent(() =>
 const PostFooter = ({ classes, author, post, slug, facebook }) => {
   return (
     <footer className={classes.footer}>
-      <div style={{ textAlign: "center" }}>
-        <a className={classes.bmc} target="_blank" href="https://www.buymeacoffee.com/lp1cMOE"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"/><span style={{ marginLeft: '15px', fontSize: '28px' }}>Ủng hộ tớ ly cafe nhé!</span></a>
-      </div>
       <PostShare post={post} slug={slug} />
       <PostAuthor author={author} />
       <PostComments post={post} slug={slug} facebook={facebook} />
