@@ -5,7 +5,7 @@ module.exports = {
   shortSiteTitle: "duthaho's blog", // <title> ending for posts and pages
   siteDescription: "duthaho's blog. A fullstack developer at peddler.com",
   siteUrl: "https://duthaho.com",
-  pathPrefix: "",
+  pathPrefix: "/duthaho-blog",
   siteImage: "preview.jpg",
   siteLanguage: "en",
   // author
