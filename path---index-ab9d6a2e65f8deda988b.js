@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{766:function(t,a){t.exports={data:{site:{siteMetadata:{facebook:{appId:"1476613389154628"}}}},pathContext:{}}}});
+//# sourceMappingURL=path---index-ab9d6a2e65f8deda988b.js.map
