@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://duthaho.com/js-this-context/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/react-component-lifecycle-3/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/js-first-class-functions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/js-creating-array/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/js-first-class-functions-2/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/a-bookmark-reading-list/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/how-i-build-blood-alcohol-calculator/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/react-component-lifecycle-2/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/react-component-lifecycle-1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/js-cloning-array/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/prototype-in-javascript-2/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/prototype-in-javascript/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/js-promise/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/1977-javascript-quizzes/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/starters/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/success/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://duthaho.com/search/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/js-this-context/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/react-component-lifecycle-3/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/js-first-class-functions-2/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/js-first-class-functions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/js-creating-array/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/how-i-build-blood-alcohol-calculator/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/a-bookmark-reading-list/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/react-component-lifecycle-1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/js-cloning-array/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/react-component-lifecycle-2/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/prototype-in-javascript/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/prototype-in-javascript-2/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/js-promise/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/1977-javascript-quizzes/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/starters/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/success/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://duthaho.com/blog/search/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
